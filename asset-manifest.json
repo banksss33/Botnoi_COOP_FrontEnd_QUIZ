@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Botnoi_COOP_FrontEnd_QUIZ/static/css/main.f251f349.css",
+    "main.js": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/main.803baf7c.js",
+    "static/js/453.ed3810f9.chunk.js": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Botnoi_COOP_FrontEnd_QUIZ/index.html",
+    "main.f251f349.css.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/css/main.f251f349.css.map",
+    "main.803baf7c.js.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/main.803baf7c.js.map",
+    "453.ed3810f9.chunk.js.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f251f349.css",
+    "static/js/main.803baf7c.js"
+  ]
+}
