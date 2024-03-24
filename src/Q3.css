@@ -1,0 +1,63 @@
+.body {
+  position: relative;
+}
+
+.grid {
+  z-index: 0;
+  position: absolute;
+  width: 210mm;
+  height: 297mm;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "bgs1 bg bg bg bg"
+    "bgs1 bg bg bg bg"
+    "bgs1 bg bg bg bg"
+    "bgs2 bg bg bg bg"
+    "bgs2 bg bg bg bg"
+    "bgs2 bg bg bg bg"
+    "bgs2 bg bg bg bg"
+    "bgs2 bg bg bg bg"
+    "bgs2 bg bg bg bg"
+    "bgs2 bg bg bg bg";
+  background-color: #241d19;
+}
+
+.bgs1 {
+  grid-area: bgs1;
+  background-color: #dbcaba;
+}
+
+.bgs2 {
+  grid-area: bgs2;
+  background-color: #f1e7de;
+}
+
+.inner-grid {
+  z-index: 1;
+  position: absolute;
+  width: 210mm;
+  height: 297mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pd pd pd ns ns ns ns"
+    "pd pd pd dt dt dt dt"
+    "pd pd pd dt dt dt dt"
+    "pd pd pd dt dt dt dt"
+    "pd pd pd dt dt dt dt";
+}
+
+.pd {
+  grid-area: pd;
+}
+.ns {
+  grid-area: ns;
+}
+.dt {
+  grid-area: dt;
+}

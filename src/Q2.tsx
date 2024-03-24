@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 
-import "./Q2.css";
-
 interface PokemonSprites {
   front_default: string;
   back_default: string;
@@ -69,20 +67,20 @@ function Q2() {
   }, []);
 
   return (
-    <body>
+    <body className="bg-secondary">
       <Container fluid className="w-100 ">
         <Row>
           {pokemonList.map((pokemon) => (
             <Col key={pokemon.id} xs={12} sm={6} md={4} lg={3}>
               <Card className="mb-4 h-100">
-                <Card.Title className="text-center mt-3">
+                <Card.Title className="text-center mt-3 bg-light">
                   {pokemon.name.toUpperCase()}
                 </Card.Title>
                 <Container className="w-75" style={{ borderStyle: "solid" }}>
                   <img className="w-50" src={pokemon.sprites.front_default} />
                   <img className="w-50" src={pokemon.sprites.back_default} />
                 </Container>
-                <Card.Body>
+                <Card.Body className="bg-light">
                   <div className="mb-1 d-flex justify-content-center">
                     <audio controls className="w-75">
                       <source src={pokemon.cries.latest} type="audio/ogg" />

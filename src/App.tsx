@@ -3,6 +3,7 @@ import { Tabs, Tab } from "react-bootstrap";
 import "./App.css";
 import Q1 from "./Q1";
 import Q2 from "./Q2";
+import Q3 from "./Q3";
 
 let inpNums: number = 0;
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Q2 />
         </Tab>
         <Tab eventKey="tab3" title="Q3">
-          <h1>IN PROGRESS...</h1>
+          <Q3 />
         </Tab>
       </Tabs>
     </>
