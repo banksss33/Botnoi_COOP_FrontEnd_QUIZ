@@ -12,16 +12,16 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
-    "bgs1 bg bg bg bg"
-    "bgs1 bg bg bg bg"
-    "bgs1 bg bg bg bg"
-    "bgs2 bg bg bg bg"
-    "bgs2 bg bg bg bg"
-    "bgs2 bg bg bg bg"
-    "bgs2 bg bg bg bg"
-    "bgs2 bg bg bg bg"
-    "bgs2 bg bg bg bg"
-    "bgs2 bg bg bg bg";
+    "bgs1 . . . ."
+    "bgs1 . . . ."
+    "bgs1 . . . ."
+    "bgs2 . . . ."
+    "bgs2 . . . ."
+    "bgs2 . . . ."
+    "bgs2 . . . ."
+    "bgs2 . . . ."
+    "bgs2 . . . ."
+    "bgs2 . . . .";
   background-color: #241d19;
 }
 
@@ -54,10 +54,30 @@
 
 .pd {
   grid-area: pd;
+  padding-left: 5%;
+  padding-top: 60%;
 }
+
+.box {
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #efeff0;
+  height: 100%;
+  width: 100%;
+}
+
 .ns {
   grid-area: ns;
 }
 .dt {
   grid-area: dt;
+}
+
+.box2 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: white;
 }
