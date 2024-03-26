@@ -1,4 +1,6 @@
 .body {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -7,6 +9,7 @@
   position: absolute;
   width: 210mm;
   height: 297mm;
+
   display: grid;
   grid-template-columns: 0.9fr 1.1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -36,6 +39,7 @@
 }
 
 .inner-grid {
+  border: solid 0.1vw black;
   z-index: 1;
   position: absolute;
   width: 210mm;
@@ -60,17 +64,76 @@
 
 .box {
   display: flex;
+  position: relative;
   justify-content: center;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 3vh;
+  border-top-right-radius: 3vh;
   background-color: #efeff0;
   height: 100%;
   width: 100%;
 }
 
+.img-box {
+  width: 75%;
+  height: auto;
+  position: absolute;
+  margin-top: -35%;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.box-wrapper {
+  display: block;
+  padding-left: 7%;
+  flex-direction: column;
+  align-self: self-start;
+  margin-top: 50%;
+  width: auto;
+  height: auto;
+}
+
+.item {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.box-wrapper > div {
+  font-size: 10.5pt;
+}
+
+.box-wrapper > ul > li {
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.icons-head {
+  height: 100%;
+  width: 10%;
+}
+
+.icons {
+  margin-right: 4%;
+  height: 100%;
+  width: 7%;
+}
+
 .ns {
   grid-area: ns;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.ns > div {
+  align-self: center;
+}
+
 .dt {
   grid-area: dt;
 }
@@ -80,4 +143,5 @@
   height: 100%;
   width: 100%;
   background-color: white;
+  padding: 5%;
 }
