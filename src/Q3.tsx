@@ -65,16 +65,73 @@ function Q3() {
             </div>
           </div>
           <div className="ns">
-            <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>THANNATHON</div>
             <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>
-              NIRATTISAYKUL
+              <b>THANNATHON</b>
+              </div>
+            <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>
+              <b>NIRATTISAYKUL</b>
             </div>
             <div style={{ color: "#FFFDFD", fontSize: "15pt" }}>
               Front/Back-end developer
             </div>
           </div>
           <div className="dt">
-            <div className="box2">qweqwe</div>
+            <div className="box2">
+              <p>As a Computer Science undergraduate with a</p>
+              <p>minor in Software Engineering, my focus lies in</p>
+              <p>front/back-end development. I have experience</p>
+              <p>with Python, C/C++, Java, Golang, and</p>
+              <p>JavaScript, and I'm somewhat familiar with Agile-</p>
+              <p>Scrum methodology for Software Development.</p>
+
+              <div className="dt-line">
+                <li>PROJECT</li>
+              </div>
+
+              <span>
+                <b>Full-Stack Development on Movie Reviews Website</b>
+              </span>
+              <ul>
+                <li>
+                  Contributed to the development of a Movie Reviews and Rating
+                  Website for a database assignment.
+                </li>
+                <li>
+                  Utilized ReactJS-Bootstrap for the front-end, NodeJS for
+                  back-end tasks, and SQL for database design.
+                </li>
+                <li>
+                  Actively participated in various project aspects, gaining
+                  practical experience in full-stack development.
+                </li>
+              </ul>
+
+              <p>
+                <b>Web Development Project: Health-Fitness Website</b>
+              </p>
+              <p>
+                <b>in ReactJS with Agile-Scrum</b>
+              </p>
+              <ul>
+                <li>
+                  Contributed to the development of a Health-Fitness Website in
+                  a collaborative WebApps team project.
+                </li>
+                <li>
+                  Utilized ReactJS and applied Agile-Scrum methodology for
+                  efficient project management.
+                </li>
+              </ul>
+
+              <li>EDUCATION</li>
+              <p>
+                <b>THAMMASAT UNIVERSITY</b>
+              </p>
+              <p>2021-Present</p>
+              <p>Bachelor of Science and Technology in</p>
+              <p>Computer and Information Science</p>
+              <p>(Graduate in 2025) GPA 3.08</p>
+            </div>
           </div>
         </div>
       </div>

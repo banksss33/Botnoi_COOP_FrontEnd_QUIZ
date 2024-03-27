@@ -1,3 +1,8 @@
+@import url("https://fonts.cdnfonts.com/css/now");
+@import url('https://fonts.cdnfonts.com/css/tt-drugs-trial');
+
+
+
 .body {
   display: flex;
   justify-content: center;
@@ -103,11 +108,13 @@
 
 .box-wrapper > div {
   font-size: 10.5pt;
+  font-family: 'Now', sans-serif;
 }
 
 .box-wrapper > ul > li {
   margin-left: 8%;
   margin-top: 5%;
+  font-family: 'Now', sans-serif;
 }
 
 .icons-head {
@@ -128,18 +135,38 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: 'TT Drugs Trial', sans-serif;
 }
 
 .ns > div {
-  align-self: center;
+  align-self: start;
+  padding-left: 5%;
 }
 
 .dt {
   grid-area: dt;
 }
 
+.dt-line {
+  margin-top: 10%;
+}
+
+.box2 > p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Now', sans-serif;
+}
+
+.box2  > ul >li {
+  margin-bottom: 5%;
+}
+
+.box2 > li {
+  font-family: 'TT Drugs Trial', sans-serif;
+}
+
 .box2 {
-  display: flex;
+  display: block;
   height: 100%;
   width: 100%;
   background-color: white;
