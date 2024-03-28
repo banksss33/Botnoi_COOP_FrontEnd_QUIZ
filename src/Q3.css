@@ -1,7 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/now");
-@import url('https://fonts.cdnfonts.com/css/tt-drugs-trial');
-
-
+@import url("https://fonts.cdnfonts.com/css/tt-drugs-trial");
 
 .body {
   display: flex;
@@ -108,13 +106,13 @@
 
 .box-wrapper > div {
   font-size: 10.5pt;
-  font-family: 'Now', sans-serif;
+  font-family: "Now", sans-serif;
 }
 
 .box-wrapper > ul > li {
   margin-left: 8%;
   margin-top: 5%;
-  font-family: 'Now', sans-serif;
+  font-family: "Now", sans-serif;
 }
 
 .icons-head {
@@ -135,7 +133,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "TT Drugs Trial", sans-serif;
+}
+
+.box-wrapper > div > b {
+  font-family: "TT Drugs Trial", sans-serif;
 }
 
 .ns > div {
@@ -154,15 +156,22 @@
 .box2 > p {
   margin: 0;
   padding: 0;
-  font-family: 'Now', sans-serif;
+  font-family: "Now", sans-serif;
 }
 
-.box2  > ul >li {
+.box2 > ul > li {
   margin-bottom: 5%;
 }
 
-.box2 > li {
-  font-family: 'TT Drugs Trial', sans-serif;
+.header {
+  border-radius: 5rem;
+  font-weight: bold;
+  font-family: "TT Drugs Trial", sans-serif;
+  background-color: #f1e7de;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 10%;
+  margin-bottom: 2%;
 }
 
 .box2 {

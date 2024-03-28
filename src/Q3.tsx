@@ -67,7 +67,7 @@ function Q3() {
           <div className="ns">
             <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>
               <b>THANNATHON</b>
-              </div>
+            </div>
             <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>
               <b>NIRATTISAYKUL</b>
             </div>
@@ -85,7 +85,9 @@ function Q3() {
               <p>Scrum methodology for Software Development.</p>
 
               <div className="dt-line">
-                <li>PROJECT</li>
+                <span className="header">
+                  <li>PROJECT</li>
+                </span>
               </div>
 
               <span>
@@ -107,10 +109,7 @@ function Q3() {
               </ul>
 
               <p>
-                <b>Web Development Project: Health-Fitness Website</b>
-              </p>
-              <p>
-                <b>in ReactJS with Agile-Scrum</b>
+                <b>Web Development Project: Health-Fitness Website in ReactJS with Agile-Scrum</b>
               </p>
               <ul>
                 <li>
@@ -123,7 +122,9 @@ function Q3() {
                 </li>
               </ul>
 
-              <li>EDUCATION</li>
+              <span className="header">
+                <li>EDUCATION</li>
+              </span>
               <p>
                 <b>THAMMASAT UNIVERSITY</b>
               </p>
