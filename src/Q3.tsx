@@ -65,13 +65,13 @@ function Q3() {
             </div>
           </div>
           <div className="ns">
-            <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>
+            <div className="header-bns">
               <b>THANNATHON</b>
             </div>
-            <div style={{ color: "#FFFDFD", fontSize: "30pt" }}>
+            <div className="header-bns">
               <b>NIRATTISAYKUL</b>
             </div>
-            <div style={{ color: "#FFFDFD", fontSize: "15pt" }}>
+            <div className="header-sns">
               Front/Back-end developer
             </div>
           </div>
@@ -90,9 +90,9 @@ function Q3() {
                 </span>
               </div>
 
-              <span>
+              <p>
                 <b>Full-Stack Development on Movie Reviews Website</b>
-              </span>
+              </p>
               <ul>
                 <li>
                   Contributed to the development of a Movie Reviews and Rating
@@ -128,7 +128,7 @@ function Q3() {
               <p>
                 <b>THAMMASAT UNIVERSITY</b>
               </p>
-              <p>2021-Present</p>
+              <p style={{color: "#545454"}}>2021-Present</p>
               <p>Bachelor of Science and Technology in</p>
               <p>Computer and Information Science</p>
               <p>(Graduate in 2025) GPA 3.08</p>

@@ -10,8 +10,8 @@
 .grid {
   z-index: 0;
   position: absolute;
-  width: 210mm;
-  height: 297mm;
+  width: 80vw;
+  aspect-ratio: 1/1.41428;
 
   display: grid;
   grid-template-columns: 0.9fr 1.1fr 1fr 1fr 1fr;
@@ -45,8 +45,8 @@
   border: solid 0.1vw black;
   z-index: 1;
   position: absolute;
-  width: 210mm;
-  height: 297mm;
+  width: 80vw;
+  aspect-ratio: 1/1.41428;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -105,11 +105,12 @@
 }
 
 .box-wrapper > div {
-  font-size: 10.5pt;
+  font-size: 1.5vw;
   font-family: "Now", sans-serif;
 }
 
 .box-wrapper > ul > li {
+  font-size: 1.5vw;
   margin-left: 8%;
   margin-top: 5%;
   font-family: "Now", sans-serif;
@@ -134,6 +135,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: "TT Drugs Trial", sans-serif;
+  color: #FFFDFD;
 }
 
 .box-wrapper > div > b {
@@ -143,6 +145,15 @@
 .ns > div {
   align-self: start;
   padding-left: 5%;
+}
+
+.header-bns{
+  font-size: 4.5vw;
+  
+}
+
+.header-sns {
+  font-size: 2.5vw;
 }
 
 .dt {
@@ -157,14 +168,17 @@
   margin: 0;
   padding: 0;
   font-family: "Now", sans-serif;
+  font-size: 1.5vw;
 }
 
 .box2 > ul > li {
   margin-bottom: 5%;
+  font-size: 1.5vw;
 }
 
 .header {
   border-radius: 5rem;
+  font-size: 1.5vw;
   font-weight: bold;
   font-family: "TT Drugs Trial", sans-serif;
   background-color: #f1e7de;
@@ -180,4 +194,22 @@
   width: 100%;
   background-color: white;
   padding: 5%;
+}
+
+@media screen and (max-width: 576px) {
+  .box2 > p {
+    font-size: 1.4vw;
+  }
+
+  .box2 > ul > li {
+    font-size: 1.4vw;
+  }
+
+  .header {
+    font-size: 1.4vw;
+  }
+
+  .box-wrapper > ul > li {
+    font-size: 1.45vw;
+  }
 }
