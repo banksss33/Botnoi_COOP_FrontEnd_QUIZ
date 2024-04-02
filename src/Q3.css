@@ -176,6 +176,10 @@
   font-size: 1.5vw;
 }
 
+.box2 > ul {
+  margin-bottom: auto;
+}
+
 .header {
   border-radius: 5rem;
   font-size: 1.5vw;
@@ -202,14 +206,18 @@
   }
 
   .box2 > ul > li {
-    font-size: 1.4vw;
+    font-size: 1.35vw;
   }
 
   .header {
-    font-size: 1.4vw;
+    font-size: 1.45vw;
   }
 
   .box-wrapper > ul > li {
     font-size: 1.45vw;
+  }
+
+  .dt-line {
+    margin-top: 10%;
   }
 }

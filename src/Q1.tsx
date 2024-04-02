@@ -37,7 +37,7 @@ function Q1() {
           setCount(inpNums);
         }}
       >
-        GO!
+        Submit
       </button>
 
       <div>{starPattern(count)}</div>
