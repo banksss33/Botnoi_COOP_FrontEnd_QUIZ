@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Botnoi_COOP_FrontEnd_QUIZ/static/css/main.665d5c18.css",
-    "main.js": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/main.d010e039.js",
+    "main.js": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/main.f5c3d7a0.js",
     "static/js/453.ed3810f9.chunk.js": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/453.ed3810f9.chunk.js",
     "static/media/PROFILE_IMG.jpg": "/Botnoi_COOP_FrontEnd_QUIZ/static/media/PROFILE_IMG.dac8e4aad425c96d3be8.jpg",
     "static/media/icon6.svg": "/Botnoi_COOP_FrontEnd_QUIZ/static/media/icon6.4480d8ceeb89613bacdc27db6a855191.svg",
@@ -12,11 +12,11 @@
     "static/media/icon4.svg": "/Botnoi_COOP_FrontEnd_QUIZ/static/media/icon4.6041fa04f02905e0126ed1cf887a7b25.svg",
     "index.html": "/Botnoi_COOP_FrontEnd_QUIZ/index.html",
     "main.665d5c18.css.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/css/main.665d5c18.css.map",
-    "main.d010e039.js.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/main.d010e039.js.map",
+    "main.f5c3d7a0.js.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/main.f5c3d7a0.js.map",
     "453.ed3810f9.chunk.js.map": "/Botnoi_COOP_FrontEnd_QUIZ/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.665d5c18.css",
-    "static/js/main.d010e039.js"
+    "static/js/main.f5c3d7a0.js"
   ]
 }
